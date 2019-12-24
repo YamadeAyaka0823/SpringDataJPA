@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form th:action="@{/contact/insert}" method="post">
+<h2>情報登録画面</h2><br>
+<!-- <input type="hidden" name="id" value="3"> -->
+名前: <input type="text" name="name"><br>
+郵便番号: <input type="text" name="zip"><br>
+住所: <input type="text" name="address"><br>
+電話番号: <input type="text" name="tel"><br>
+
+<button>送信</button>
+
+</form>
+</body>
+</html>
